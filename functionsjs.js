@@ -58,7 +58,10 @@ done[z].onclick=function(){
 
 //when click on the button delete
 del[z].onclick=function(){
-   listline[z].style.display="none"; 
+     var conf= window.confirm("Are You Sure You want to delete?");
+   if(conf){
+      listline[z].style.display="none"; 
+   }
 }
 
 
