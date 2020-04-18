@@ -1,0 +1,99 @@
+/*div contain the to-do list*/
+.todo-list{
+
+    margin-top:20px;
+    margin-left:40px;
+    margin-right:500px;
+}
+
+.todo-list #header{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.addTask #bt1{
+    background-color:#009aff;
+    padding:10px;
+    font-size:16px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width:110px;
+    
+    
+}
+.addTask #txt1{
+    padding:8px;
+    width:170px;
+}
+
+#list{
+    list-style-type: none;
+    
+    
+}
+
+#list li{
+    cursor: pointer;
+    margin-left:-30px;
+    border-bottom:1px solid #969696;
+    
+
+}
+
+#list li:hover {
+
+border-bottom:2px solid #6e6c6c;
+
+}
+
+.flright{
+    float:right;
+}
+
+.hide{
+    
+    display:none;
+
+}
+
+#list li:hover .a1 {
+    display:inline-block;
+    text-decoration: none;
+}
+#list li:hover .a2 {
+    display:inline-block;
+    text-decoration: none;
+}
+
+
+.a1{
+    background-color: transparent;   
+    border: transparent;
+    font-style: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: green;
+    padding-top: 15px;
+}
+
+.a2{
+    background-color: transparent;
+    border: transparent;
+    font-style: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:red;
+    padding-top: 15px;
+}
+
+
+p{
+padding-top:0px;
+display: inline-block;
+}
+
+.done{
+    color:green;
+}
+
+
+
